@@ -26,6 +26,7 @@ declare global {
         billing: string;
         renewalDate?: string;
         color?: string;
+        frequency?: 'Weekly' | 'Monthly' | 'Yearly' | 'weekly' | 'monthly' | 'yearly';
     }
 
     interface SubscriptionCardProps extends Omit<Subscription, "id"> {
@@ -41,7 +42,7 @@ declare global {
         name: string;
         price: number;
         currency?: string;
-        daysLeft: number;
+        daysLeft?: number;
     }
 
     interface UpcomingSubscriptionCardProps
