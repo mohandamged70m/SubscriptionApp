@@ -51,6 +51,16 @@ declare global {
     interface ListHeadingProps {
         title: string;
     }
+
+    interface Expense {
+        id: string;
+        name: string;
+        amount: number;
+        currency?: string;
+        category: ExpenseCategory;
+        date: string;
+        note?: string;
+    }
 }
 
 export {};

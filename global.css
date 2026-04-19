@@ -565,4 +565,208 @@
     .history-period {
         @apply text-xs font-sans-medium text-navy/70;
     }
+
+    .wallet-header {
+        @apply flex-row items-center justify-between px-5 pt-4;
+    }
+
+    .wallet-title {
+        @apply text-2xl font-sans-bold text-primary;
+    }
+
+    .wallet-add-btn {
+        @apply size-10 items-center justify-center rounded-full bg-accent;
+    }
+
+    .wallet-add-icon {
+        @apply size-6;
+    }
+
+    .wallet-month-selector {
+        @apply mx-5 mt-2 flex-row items-center justify-center gap-3;
+    }
+
+    .wallet-month-nav {
+        @apply size-8 items-center justify-center rounded-full bg-navy/10;
+    }
+
+    .wallet-month-nav-text {
+        @apply text-xl font-sans-bold text-navy;
+    }
+
+    .wallet-month-nav-disabled {
+        @apply text-navy/30;
+    }
+
+    .wallet-month-text {
+        @apply min-w-32 text-center text-base font-sans-semibold text-primary;
+    }
+
+    .wallet-summary-card {
+        @apply mx-5 mb-5 rounded-2xl bg-accent p-5;
+    }
+
+    .wallet-summary-label {
+        @apply text-base font-sans-medium text-white/80;
+    }
+
+    .wallet-summary-amount {
+        @apply mt-1 text-3xl font-sans-bold text-white;
+    }
+
+    .wallet-summary-change {
+        @apply mt-3 flex-row items-center gap-2;
+    }
+
+    .wallet-summary-change-up {
+        @apply rounded-full bg-white/20 px-2 py-0.5;
+    }
+
+    .wallet-summary-change-down {
+        @apply rounded-full bg-success/30 px-2 py-0.5;
+    }
+
+    .wallet-summary-change-text {
+        @apply text-sm font-sans-bold;
+    }
+
+    .wallet-summary-change-text-up {
+        @apply text-white;
+    }
+
+    .wallet-summary-change-text-down {
+        @apply text-success;
+    }
+
+    .wallet-summary-change-label {
+        @apply text-xs font-sans-medium text-white/70;
+    }
+
+    .category-breakdown {
+        @apply mb-5 px-5;
+    }
+
+    .category-list {
+        @apply mt-3 gap-2;
+    }
+
+    .category-row {
+        @apply flex-row items-center gap-3 py-2;
+    }
+
+    .category-row-dimmed {
+        @apply opacity-40;
+    }
+
+    .category-info {
+        @apply flex-row items-center gap-2 w-32;
+    }
+
+    .category-dot {
+        @apply size-3 rounded-full;
+    }
+
+    .category-name {
+        @apply text-sm font-sans-medium text-primary;
+    }
+
+    .category-amounts {
+        @apply items-end w-20;
+    }
+
+    .category-amount {
+        @apply text-sm font-sans-bold text-primary;
+    }
+
+    .category-percentage {
+        @apply text-xs font-sans-medium text-muted-foreground;
+    }
+
+    .category-bar-container {
+        @apply flex-1 h-2 rounded-full bg-muted;
+    }
+
+    .category-bar {
+        @apply h-2 rounded-full;
+    }
+
+    .transactions-header {
+        @apply mb-4 flex-row items-center justify-between px-5;
+    }
+
+    .transactions-count {
+        @apply text-sm font-sans-medium text-muted-foreground;
+    }
+
+    .wallet-filter-clear {
+        @apply rounded-full border border-accent/30 px-3 py-1;
+    }
+
+    .wallet-filter-clear-text {
+        @apply text-sm font-sans-semibold text-accent;
+    }
+
+    .wallet-filter-badge {
+        @apply mx-5 mb-3 rounded-full bg-accent/20 px-3 py-1;
+    }
+
+    .wallet-filter-badge-text {
+        @apply text-sm font-sans-semibold text-accent;
+    }
+
+    .expense-card {
+        @apply mb-3 flex-row items-center rounded-2xl border border-border bg-card p-4;
+    }
+
+    .expense-icon-container {
+        @apply size-12 items-center justify-center rounded-xl;
+    }
+
+    .expense-icon-dot {
+        @apply size-4 rounded-full;
+    }
+
+    .expense-info {
+        @apply ml-3 flex-1;
+    }
+
+    .expense-name {
+        @apply text-base font-sans-bold text-primary;
+    }
+
+    .expense-category {
+        @apply text-sm font-sans-medium text-muted-foreground;
+    }
+
+    .expense-right {
+        @apply items-end;
+    }
+
+    .expense-amount {
+        @apply text-base font-sans-bold text-destructive;
+    }
+
+    .expense-date {
+        @apply text-xs font-sans-medium text-muted-foreground;
+    }
+
+    .wallet-fab {
+        @apply absolute bottom-6 right-5 size-14 items-center justify-center rounded-full bg-accent shadow-lg;
+    }
+
+    .wallet-fab-icon {
+        @apply size-8;
+    }
+
+    .empty-state {
+        @apply items-center py-8;
+    }
+
+    .empty-state-text {
+        @apply text-base font-sans-medium text-muted-foreground;
+    }
+
+    .auth-textarea {
+        @apply h-24 text-start;
+    }
 }
